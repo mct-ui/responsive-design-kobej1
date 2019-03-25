@@ -38,6 +38,13 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+
 *,
 *:before,
 *:after {
@@ -82,18 +89,21 @@ h1 {
   font-size: 36px;
   line-height: 48px;
   margin: 0 0 24px;
+  font-weight: 200;
 }
 
 h2 {
   font-size: 32px;
   line-height: 40px;
   margin: 0 0 24px;
+  font-weight: 200;
 }
 
 h3 {
   font-size: 26px;
   line-height: 32px;
   margin: 0 0 24px;
+  font-weight: 200;
 }
 
 h4,
@@ -211,7 +221,7 @@ a:focus {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 90em; /* 90 * 16px = 1440px */
+  max-width: 56.4em;
 }
 
 /*
